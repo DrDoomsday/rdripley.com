@@ -1,0 +1,72 @@
+html, body, h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial;
+	text-align: center;
+	color: #222;
+}
+a {
+	text-decoration: none;
+	color: #555;
+}
+a:hover {
+	text-decoration: underline;
+}
+section {
+	padding: 50px 20px;
+}
+h1 {
+	font-size: 85px;
+}
+h2 {
+	font-size: 40px;
+}
+p {
+	font-size: 18px;
+	margin: 18px 0;
+}
+#header {
+	background-color: #444;
+	padding: 100px 20px;
+	color: #cccccc;
+	border-bottom: 30px solid #333;
+}
+#header a:link,#header a:hover,#header a:visited,#header a:active {
+	color: #eeeeee;
+}
+#header h1 {
+	margin: 5px 5px 25px;
+	font-weight: normal;
+}
+#header h2 {
+	margin: 5px 5px 5px;
+	font-size: 24px;
+	font-weight: normal;
+}
+#header h3 {
+	margin: 5px 5px 45px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.fixed-width-container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: left;
+}
+#info {
+	background-color: #CCC;
+}
+#projects {
+	background-color: #BBB;
+	border-top: 30px solid #999;
+}
+#projects img {
+	float: left;
+}
+.project {
+	overflow: auto;
+	padding: 10px;
+	background-color: #CCC;
+}
