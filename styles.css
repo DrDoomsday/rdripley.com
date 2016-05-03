@@ -59,7 +59,7 @@ p {
 	margin: 0 auto;
 	width: 800px;
 	text-align: left;
-	background-color: #AAA;
+	background-color: #9D5D00;
 }
 #info {
 	background-color: #CCC;
@@ -67,7 +67,7 @@ p {
 #projects {
 	background-color: #9D5D00;
 	border-top: 30px solid #351F00;
-	border-bottom: 10px solid #351F00;
+	border-bottom: 20px solid #351F00;
 }
 #projects img {
 	float: left;
@@ -75,13 +75,21 @@ p {
 .project {
 	overflow: auto;
 	padding: 40px 40px;
-	background-color: rgba(252, 251, 227, 0.82);;
-	border-width: 10px 15px 10px 15px; 
-	border-style: solid;
-	border-color: #794800;
+	background-color: #794800;
+	color: color: #F5F5DC;
+	margin-bottom: 25px;
+}
+#projects h4 {
+	color: #9D5D00;
+}
+#projects p {
+	color: #F5F5DC;
 }
 .project-images {
 	padding-right: 30px;
 	height: 150px;
 	width: 150px;
+}
+.project a {
+	color: #F5F5DC;
 }
