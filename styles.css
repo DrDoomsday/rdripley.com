@@ -35,6 +35,7 @@ p {
 }
 #header a:link,#header a:hover,#header a:visited,#header a:active {
 	text-decoration: none;
+	font-family: 'Mono Social Icons Font';
 }
 #header h1 {
 	margin: 5px 5px 25px;
@@ -69,9 +70,6 @@ p {
 	border-top: 30px solid #351F00;
 	border-bottom: 20px solid #351F00;
 }
-#projects img {
-	float: left;
-}
 .project {
 	overflow: auto;
 	padding: 40px 40px;
@@ -80,15 +78,15 @@ p {
 	margin-bottom: 25px;
 }
 #projects h4 {
-	color: #9D5D00;
+	color: #DD9936;
 }
 #projects p {
 	color: #F5F5DC;
 }
 .project-images {
 	padding-right: 30px;
-	height: 150px;
-	width: 150px;
+	display: inline;
+	float: left;
 }
 .project a {
 	color: #F5F5DC;
