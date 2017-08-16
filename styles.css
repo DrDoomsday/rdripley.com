@@ -82,7 +82,7 @@ p {
 .project {
 	overflow: auto;
 	padding: 40px 40px;
-	background-color: #004282;
+	background-color: rgba(0,66,130,0.4);
 	color: #F5F5DC;
 	margin-bottom: 25px;
 }
