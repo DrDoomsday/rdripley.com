@@ -1,78 +1,271 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<title>rdripley.com</title>
-	</head>
-	<body>
-		<section id="header">
-			<h1>Russ Ripley</h1>
-			<h2>Full-Stack Web Developer living in Phoenix, Arizona</h2>
-			<h3>Striving to write high quality code that adapts to change</h3>
-			<nav>
-				<a href="https://www.linkedin.com/in/russripley" id="header-images">&#xe452;</a>
-				<a href="https://github.com/rdripley">&#xe436;</a>
-				<a href="mailto:russellripley@hotmail.com">&#xe424;</a>
-			</nav>
-		</section>
-		<section id="info">
-			<h2>Capabilities</h2>
-			<p><strong>Front end</strong> - HTML5, CSS3, JavaScript, and jQuery.</p>
-			<p><strong>Back end</strong> - PHP, MySQL.</p>
-		</section>
-		<article>
-			<p>If you would like to hire me, please contact me at <a href="mailto:russellripley@hotmail.com" class="email-articles">russellripley@hotmail.com</a></p>
-		</article>
-		<section id="projects">
-			<div class="fixed-width-container">
-				<div class="project">
-					<img src="google-mock-up.png" class="project-images">
-					<h3>
-						<a href="http://rdripley.com/google.html">Google Homepage</a>
-					</h3>
-					<h4>(HTML5, CSS3)</h4>
-					<p>This Google Homepage mock-up was designed as an exact replica of the standard Google Homepage layout. This required of a knowledge of how to utilize a fixed-width-layout, standard HTML5 and CSS3, and a sticky footer.</p>
-				</div>
-				<div class="project">
-					<img src="hackernews-mock-up.png" class="project-images">
-					<h3>
-						<a href="http://rdripley.com/hackernews.html">Hackernews Homepage</a>
-					</h3>
-					<h4>(HTML5, CSS3)</h4>
-					<p>This Hackernews Homepage mock-up was an exercise on recreating a simple and modern Web Homepage. This was accomplished by utilizing a fixed-width-layout, a standard HTML5 Header and Footer section with CSS3 styling. </p>
-				</div>
-				<div class="project">
-					<img src="facebook-mock-up.png" class="project-images">
-					<h3>
-						<a href="http://rdripley.com/facebook-mock-up.html">Facebook Homepage</a>
-					</h3>
-					<h4>(HTML5, CSS3)</h4>
-					<p>This Facebook Homepage mock-up demonstrates a three column Web Page format with the personal information of the User in the Left Column, Status Updates in the Middle Column, and Ad Information in the Right column. The three columns were created using HTML5 and CSS3 formatting that used a percentage-based Web layout and a sticky header. </p>
-				</div>
-				<div class="project">
-					<img src="forum-project.png" class="project-images">
-					<h3>
-						<a href="http://rdripley.com/forum/public/index.php">Forum Page</a>
-					</h3>
-					<h4>(PHP, MySQL, HTML5, CSS3, JavaScript, jQuery)</h4>
-					<p>This Forum App utilizes MySQL to allow users to log-in, post and delete threads. The Main Page is a fixed-width-layout written using HTML5 and CSS3 for the styling. To allow Users to log-in and log-out, the Forum App uses PHP code to communicate with the Server and the SQL Database. Furthermore, three SQL Databases were created to track the User, the Post, and the Threads associated with that Post.</p>
-				</div>
-				<div class="project">
-					<img src="tasker-project.png" class="project-images">
-					<h3>
-						<a href="https://tasker-project.herokuapp.com/">Tasker App</a>
-					</h3>
-					<h4>(HTML5, CSS3, JavaScript, Express, Passport, Mongoose)</h4>
-					<p>
-						Full CRUD (Create, Read, Update, and Delete) Application.
-						This also required Database and User authentication knowledge.
-						The app was primarily created using JavaScript
-					</p>
-				</div>
-			</div>
-		</section>
-		<article>
-			<p>If you would like to hire me, please contact me at <a href="mailto:russellripley@hotmail.com" class="email-articles">russellripley@hotmail.com</a></p>
-		</article>
-	</body>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>rdripley.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">rdripley.com</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Russ Ripley Full-Stack Web Developer</h1>
+          <hr>
+          <p>Striving to write high quality code that adapts to change</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Capabilities</h2>
+            <hr class="light">
+            <p class="text-faded"><strong>Front-end</strong> - HTML5, CSS3, JAVASCRIPT, JQUERY</p>
+            <p class="text-faded"><strong>Back-end</strong> - MONGO, NOSQL, PHP, EXPRESS</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <a href="https://www.linkedin.com/in/russripley" target="_blank">
+                <i class="fa fa-4x fa-linkedin text-primary sr-icons"></i>
+              </a>
+              <h3>LinkedIn Profile</h3>
+              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <img class="img-fluid" src="img/portfolio/thumbnails/heroku.png" alt="">
+              <h3>Heroku</h3>
+              <p class="text-muted">Applications loaded onto Heroku</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <a href="https://github.com/rdripley" target="_blank">
+                <i class="fa fa-4x fa-github text-primary sr-icons"></i>
+              </a>
+              <h3>Github</h3>
+              <p class="text-muted">You can see the source code for this project and many others here!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <a href="mailto:russellripley@hotmail.com">
+                <i class="fa fa-4x fa-envelope text-primary sr-icons"></i>
+              </a>
+              <h3>Email</h3>
+              <p class="text-muted">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark"></div>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="http://rdripley.com/google.html" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/google-mock-up.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Mock Layout
+                  </div>
+                  <div class="project-name">
+                    Google Layout
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="http://rdripley.com/hackernews.html" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/hackernews-mock-up.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Mock Layout
+                  </div>
+                  <div class="project-name">
+                    Hackernews homepage
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="http://rdripley.com/facebook-mock-up.html" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/facebook-mock-up.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Mock Layout
+                  </div>
+                  <div class="project-name">
+                    Facebook
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="http://rdripley.com/forum/public/index.php" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/forum-project.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Forum Application
+                  </div>
+                  <div class="project-name">
+                    Forum
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://tasker-project.herokuapp.com/" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/tasker-project.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    MEAN Application
+                  </div>
+                  <div class="project-name">
+                    Tasker
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://github.com/rdripley/rdripley.com" target="_blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/resume-website-photo.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Resume Website
+                  </div>
+                  <div class="project-name">
+                    Source code for this project
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark"></div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="primary">
+            <p>Ready for me to join your team? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p>480-544-6211</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:russellripley@hotmail.com">russellripley@hotmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
 </html>
