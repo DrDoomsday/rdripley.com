@@ -4,15 +4,17 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
-  background-image: url('../img/header.jpg');
-  background-position: center;
+  color: black;
+  background: url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif") 
+  no-repeat fixed center; 
+  background-size: cover;
   @include background-cover;
   .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center;
+    background-color: rgba(255,255,255,.7);
     .header-content-inner {
       h1 {
         font-size: 30px;
@@ -28,7 +30,8 @@ header.masthead {
         font-size: 16px;
         font-weight: 300;
         margin-bottom: 50px;
-        color: fade-out(white, .3);
+        color: fade-out(black, .3);
+        font-weight: bold;
       }
     }
   }
